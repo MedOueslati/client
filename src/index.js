@@ -16,7 +16,7 @@ const options = {
   positions: positions.BOTTOM_CENTER,
   transition: transitions.SCALE
 }
-
+axios.defaults.baseURL = "https://Epic-Gear-api/api/v1"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
