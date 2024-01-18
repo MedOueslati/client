@@ -1,0 +1,13 @@
+/* Add this CSS to your shipping.css file or any other stylesheet */
+
+/* Style for the country dropdown */
+#country_field {
+    color: black; /* Set the text color to black */
+  }
+  
+  /* Additional styling for the dropdown menu items (optional) */
+  #country_field option {
+    color: black;
+     /* Set the text color for each option to black */
+  }
+  
